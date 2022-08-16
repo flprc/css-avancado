@@ -1,0 +1,22 @@
+#como-comprar {
+    background: $color-primary;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+
+
+    &__item {
+        margin: 1rem;
+        width: calc(80% / 4 - 1rem);
+        text-align: center;
+        span {
+            color: $color-secondary;
+        }
+    }
+
+}

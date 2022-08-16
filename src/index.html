@@ -4,89 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Framework Simulator</title>
+    <link rel="shortcut icon" href="./assets/images/icon-albani.ico" type="image/x-icon">
+    <title>ALBANI</title>
 </head>
 <body>
     <div id="root">
         <header>
             <div class="container">
-                <h2>Logo</h2>
-                <nav>
-                    <a href="#sobre">Sobre</a>
-                    <a href="#produtos">Produtos</a>
-                    <a href="#contato">Contato</a>
+                <h2 class="logo">
+                    <a href="#">
+                    <img src="./assets/images/icon-albani.ico" style="max-height: 40px;" alt="ALBANI">
+                    </a>
+                </h2>
+                <nav class="nav">
+                    <a class="nav__item" href="#sobre">Sobre</a>
+                    <a class="nav__item" href="#produtos">Destaques</a>
+                    <a class="nav__item" href="#como-comprar">Como comprar</a>
                 </nav>
+                <div class="hero">
+                    <h1>O melhor da Moda Masculina com envio grátis para todo o Brasil!</h1>
+                </div>
             </div>
         </header>
         <section id="sobre">
             <div class="container">
-                <aside>
-                    <div id="localizacao"></div>
-                </aside>
                 <article>
                     <h1>Sobre nós</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit consequuntur ipsa aliquam facilis exercitationem similique at quis id, ipsum ullam molestias natus labore, aut, ab neque deleniti corrupti voluptas dolorem?</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique ex atque nemo illum adipisci? Non aperiam voluptate labore harum, perferendis aliquam nesciunt voluptates ex nostrum rem eius reiciendis alias odit!</p>
+                    <p>Inspirada nas tendências nacionais e internacionais, nossa equipe tem se dedicado há mais de 10 anos em inovação, conforto e qualidade em todas as nossas peças.</p>
+                    <p>Apesar dos modelos apresentaram um padrão visual masculino, nossas peças são voltadas para todos os públicos e desenvolvidas para garantir conforto e estilo a quem vestir!</p>
                 </article>
             </div>
         </section>
         <section id="produtos">
             <div class="container">
-                <h1>Catálogo</h1>
-                <div class="vitrine">
-                    <div class="vitrine__item">
-                        <h3 class="vitrine__produto">Produto 1</h3>
-                        <div class="vitrine__image"></div>
-                        <p class="vitrine__desc"></p>
-                        <a href="" class="vitrine__button">Ver detalhes</a>
+                <article>
+                    <h1>Destaques</h1>
+                    <div class="vitrine">
+                        <div class="vitrine__item">
+                            <div class="vitrine__image">
+                                <img src="./assets/images/short.png" style="max-height: 250px;" alt="Criação de Logo">
+                            </div>
+                            <h3 class="vitrine__title">Bermuda Verano</h3>
+                            <p class="vitrine__desc">Coleção Outono 2022. Tamanhos: 38 ao 48. Consultar estoque no link abaixo. </p>
+
+                            <a href="#produto-logo" class="vitrine__button">Ver estoque</a>
+                        </div>
+                        <div class="vitrine__item">
+                            <div class="vitrine__image">
+                                <img src="./assets/images/blusa.png" style="max-height: 250px;" alt="Papel Timbrado">
+                            </div>
+                            <h3 class="vitrine__title">Blusa Colors</h3>
+                            <p class="vitrine__desc">
+                                Coleção Outono 2022. Tamanhos: P ao XG. Consultar estoque no link abaixo.</p>
+                            
+                            <a href="#produto-timbrado" class="vitrine__button">Ver estoque</a>
+                        </div>
+                        <div class="vitrine__item">
+                            <div class="vitrine__image">
+                                <img src="./assets/images/calca.png" style="max-height: 250px;" alt="Cartão de visita">
+                            </div>
+                            <h3 class="vitrine__title">Calça Moleton Z</h3>
+                            <p class="vitrine__desc">
+                                Coleção Inverno 2022. Tamanhos: 38 ao 48. Consultar estoque no link abaixo.   
+                            </p>
+                            <a href="#produto-cartao" class="vitrine__button">Ver estoque</a>
+                        </div>
+                        <div class="vitrine__item">
+                            <div class="vitrine__image">
+                                <img src="./assets/images/camisa.png" style="max-height: 250px;" alt="Site institucional">
+                            </div>
+                            <h3 class="vitrine__title">Camisa Social Delux</h3>
+                            <p class="vitrine__desc">
+                                Coleção Inverno 2022. Tamanhos: P ao XG. Consultar estoque no link abaixo.
+                            </p>
+                            <a href="#produto-site" class="vitrine__button">Ver estoque</a>
+                        </div>
                     </div>
-                    <div class="vitrine__item">
-                        <h3 class="vitrine__produto">Produto 2</h3>
-                        <div class="vitrine__image"></div>
-                        <p class="vitrine__desc"></p>
-                        <a href="" class="vitrine__button">Ver detalhes</a>
-                    </div>
-                    <div class="vitrine__item">
-                        <h3 class="vitrine__produto">Produto 3</h3>
-                        <div class="vitrine__image"></div>
-                        <p class="vitrine__desc"></p>
-                        <a href="" class="vitrine__button">Ver detalhes</a>
-                    </div>
-                    <div class="vitrine__item">
-                        <h3 class="vitrine__produto">Produto 4</h3>
-                        <div class="vitrine__image"></div>
-                        <p class="vitrine__desc"></p>
-                        <a href="" class="vitrine__button">Ver detalhes</a>
-                    </div>
-                    <div class="vitrine__item">
-                        <h3 class="vitrine__produto">Produto 5</h3>
-                        <div class="vitrine__image"></div>
-                        <p class="vitrine__desc"></p>
-                        <a href="" class="vitrine__button">Ver detalhes</a>
-                    </div>
-                    <div class="vitrine__item">
-                        <h3 class="vitrine__produto">Produto 6</h3>
-                        <div class="vitrine__image"></div>
-                        <p class="vitrine__desc"></p>
-                        <a href="" class="vitrine__button">Ver detalhes</a>
-                    </div>
-                </div>
+                </article>
             </div>
         </section>
-        <section id="contato">
+
+        <section id="como-comprar">
             <div class="container">
-                <h1>Contato</h1>
-                <form class="contato">
-                    <input type="text" placeholder="Nome" class="contato__input">
-                    <input type="text" placeholder="Email" class="contato__input">
-                    <button class="contato__button">Enviar</button>
-                </form>
+                <article>
+                    <h1>Como comprar</h1>
+                    <div class="steps">
+                        <div class="steps__item">
+                            <img src="./assets/images/escolha.png" style="max-height: 100px;" alt="Escolha seu lance">
+                            <h3>Adicione os itens no carrinho de compras</h3>
+                        </div>
+                        <div class="steps__item">
+                            <img src="./assets/images/lance.png" style="max-height: 100px;" alt="Pague o item escolhido">
+                            <h3>Aceitamos todos os cartões em até 12x ou boleto à vista</h3>
+                        </div>
+                        <div class="steps__item">
+                            <img src="./assets/images/trabalhamos.png" style="max-height: 100px;" alt="Trabalhamos">
+                            <h3>Após a confirmação do pagamento, separamos o seu pedido para o envio</h3>
+                        </div>
+                        <div class="steps__item">
+                            <img src="./assets/images/lancamos.png" style="max-height: 100px;" alt="Lance seu negócio">
+                            <h3>Receba o pedido no conforto da sua casa! <span>=)</span></h3>
+                        </div>
+                    </div>
+                </article>
             </div>
         </section>
         <footer>
             <div class="container">
-                <p>Loja x &copy; Todos os direitos reservados. <br>
-                <small>Desenvolvido por Felipe</small></p>
+                <p>&copy; Todos os direitos reservados. <br>
+                <small>Desenvolvido por <a href="https://github.com/flprc">Felipe</a>.</small></p>
             </div>
         </footer>
     </div>
